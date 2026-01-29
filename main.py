@@ -20,7 +20,7 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://etiubthfjhxtlbhbkpxw.supa
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "sb_publishable_YjJGR4yQzgVaEQzEpPGkhA_enSb6xsb")
 
 AFFILIATE_LINK = "https://u3.shortink.io/register?utm_campaign=836773&utm_source=affiliate&utm_medium=sr&a=zSsLjb68CplcNs&ac=my&code=HIM634"
-SUPPORT_LINK = "https://t.me/durov" 
+SUPPORT_LINK = "https://t.me/mystery_td" 
 
 # --- НАСТРОЙКИ КАРТИНОК ---
 # Вставьте ссылки (http...) ИЛИ названия файлов (image.jpg), лежащих рядом с main.py
@@ -671,4 +671,5 @@ def main():
     app_bot.run_polling()
 
 if __name__ == '__main__':
+
     main()
