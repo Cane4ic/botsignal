@@ -13,7 +13,7 @@ from supabase import create_client, Client
 TOKEN = os.environ.get("TOKEN", "8534463280:AAE5HDQiisEyJS4FeQEIBuPmFbcGcImpiu0")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", 7951945463))
 # ВАЖНО: После деплоя на Railway замените эту ссылку в переменных на ту, что выдаст Railway
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://signalbotnew-e1d9bni3a-cane4ics-projects.vercel.app/")
+WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://signalbotnew-cane4ic-cane4ics-projects.vercel.app/")
 
 # Supabase настройки
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://etiubthfjhxtlbhbkpxw.supabase.co")
@@ -673,4 +673,5 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
